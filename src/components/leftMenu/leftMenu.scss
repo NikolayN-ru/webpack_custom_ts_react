@@ -1,0 +1,25 @@
+.wrapper {
+  // color: rgb(61, 184, 112);
+  width: 374px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .title {
+    margin: 10px 10px 0px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .count {
+      background: rgba(97, 111, 130, 1);
+      border-radius: 20px;
+      color: white;
+      padding: 3px 10px;
+    }
+
+    .mark {
+      color: rgba(97, 111, 130, 1);
+    }
+  }
+}
